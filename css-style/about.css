@@ -1,0 +1,72 @@
+h1,h2,h3,h4,h5,h6,p,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --txtcolor: #fd9e6f;
+    --bgcolor:#323f54;
+    --opacityBG: #323f5486;
+    --greenBtn: linear-gradient(to right, #1d976c, #93f9b9);
+    --txtGradient: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+body{
+    font-family: 'Chenla','Roboto' !important;
+}
+.navbar{
+    margin: 0 !important;
+}
+.navbar .nav-item .nav-link h6{
+    margin-bottom: 0;
+}
+
+.main-about-content{
+    height: 340px;
+    background: var(--txtGradient);
+    border-radius: 0 0 30% 2%;
+}
+    @media only screen and (max-width: 992px){
+        .main-about-content{
+            height: auto;
+            border-radius: 0 0 20% 2%;
+        }
+        .box-hide{
+            display: none;
+        }
+    }
+.left-about{
+    width: 350px;
+    height: 380px !important;
+    padding-top: 32px;
+    padding-right: 32px;
+    height: auto;
+    border: 1px solid #fff;
+    transition: .2s ease-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.left-about:hover{
+    padding: 0px;
+}
+.title{
+    /* height: 223px; */
+    line-height: 1.8;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    /* background-color: #1d976c; */
+}
+
+.box-hide{
+    width: 100%;
+    height: 90px;
+}
+
+.avd-product{
+    background-image: url(https://www.transparenttextures.com/patterns/cubes.png), 
+                    linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc,
+                     #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51,
+                      #ffaa49, #ffc848, #ffe652);
+    border-radius: 14px;
+}

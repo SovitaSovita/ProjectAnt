@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine job</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css-style/finejob.css">
+    <!-- ----Link Sroller animate----- -->
+    <link rel="stylesheet" href="../aos-master/dist/aos.css">
+    <!-- -----------Animate.css----------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chenla&family=Roboto:wght@100&family=Siemreap&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ---Navigation start---- -->
+    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+      <div class="container">
+        <img src="../img/card-img/logo.png" width="80px">
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <svg class="ham hamRotate ham1 d-lg-none" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')"
+        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <path
+                class="line top"
+                d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path
+                class="line middle"
+                d="m 30,50 h 40" />
+          <path
+                class="line bottom"
+                d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+        </svg>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex justify-content-between ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">
+                <i class="fa-solid fa-house"></i>
+                <h6>ទំព័រដើម</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">
+                <i class="fa-solid fa-city"></i>
+                <h6>សេវាកម្ម</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="finejob.html">
+                <i class="fa-solid fa-briefcase"></i>
+                <h6>ឳកាសកាងារ</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">
+                <i class="fa-solid fa-phone"></i>
+                <h6>ទំនាក់ទំនង</h6>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">
+                <i class="fa-regular fa-comment"></i>
+                <h6>អំពីយើង</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ------Navigation end------  -->
+
+    <!-- -----Tab Tab start------->
+    <div class="container main-tab mt-4 animate__animated animate__fadeIn">
+      <ul class="nav nav-pills my-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">Urgent</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-develop-tab" data-bs-toggle="pill" data-bs-target="#pills-develop" type="button" role="tab" aria-controls="pills-develop" aria-selected="false">Developer</button>
+        </li>
+        <li class="nav-item me-auto" role="presentation">
+          <button class="nav-link" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design" type="button" role="tab" aria-controls="pills-design" aria-selected="false">Designer</button>
+        </li>
+        <div class="search-pf">
+          <input type="search" placeholder="Search">
+          <img src="../img/card-img/profile2.jpg" class="img-fluid rounded-circle ms-2" width="40px">
+        </div>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+          <div class="avd-product">
+            <div class="row">
+              <div class="col-lg-7 col-md-8 col-sm-12 d-flex align-items-center">
+                <div class="avdpro-content px-4 py-3">
+                  <div class="h4 text-white">ឪកាសការងារ និងចូលរួមជាមួយពួកយើង</div>
+                  <p class="t-content text-light my-3">សូម Upload CV របស់អ្នកនៅទីនេះ</p>
+                  <input type="file" class="form-control">
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-4 col-sm-12 d-lg-block d-md-block d-sm-none">
+                <div class="img-avd ms-auto">
+                  <img src="../img/card-img/person-avd.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h6 fw-bold text-muted mt-4 mb-2">We are hired</div>
+          <ul class="list-job">
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">អ្នកដេគ័រផ្នែកខាងក្នុង</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">ស្ថាបត្យករ</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">04 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">HR management</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">03 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">វិស្វករសំណង់សុីវិល</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">Graphic Designer</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">01 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">Database Admin</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">IT Support</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">ជាងពិដាន</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">07 position</div>
+            </li>
+          </ul>
+          <div class="row">
+            <div class="h6 fw-bold text-muted mt-4 mb-2">Our services</div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <img src="../img/hero-banner/4.jfif" class="img-fluid">
+                </div>
+                <div class="card-body text-light">
+                  <h5>ការឌីសាញបែបធម្មជាតិ</h5>
+                  <p class="py-2">ការរស់នៅដោយផ្សាភ្ជាប់ជាមួយនឹង ធម្មជាតិ</p>
+                  <a href="seeDetail.html" class="btn btn-primary w-100 mt-3">See Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-md-0 mt-3">
+              <div class="card">
+                <div class="card-header">
+                  <img src="../img/hero-banner/3.jpg" class="img-fluid">
+                </div>
+                <div class="card-body text-light">
+                  <h5>ការឌីសាញបែប​ Classic</h5>
+                  <p class="py-2">ការរចនាខាងក្នុងជាមួយនឹងទេសភាពធម្មជាតិនៅក្នុងលំហ</p>
+                  <a href="seeDetail.html" class="btn btn-primary w-100 mt-3">See Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-3">
+              <div class="card">
+                <div class="card-header">
+                  <img src="../img/hero-banner/1.jfif" class="img-fluid">
+                </div>
+                <div class="card-body text-light">
+                  <h5>ការឌីសាញបែប Modern</h5>
+                  <p class="py-2">ការងាររចនារបស់យើងត្រូវបានសម្គាល់ដោយការរួមបញ្ចូលខ្ពស់នៃពន្លឺធម្មជាតិ</p>
+                  <a href="seeDetail.html" class="btn btn-primary w-100 mt-3">See Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-develop" role="tabpanel" aria-labelledby="pills-develop-tab">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <img src="../img/job/23539682_design_06.jpg" class="img-fluid">
+                </div>
+                <div class="card-body text-light">
+                  <h5>យើងកំពុងត្រូវការបុគ្គលិក</h5>
+                  <p class="my-2">ជាច្រើននាក់</p>
+                  <button type="button" class="btn btn-primary w-100 mt-3">See Detail</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-md-0 mt-3">
+              <div class="card">
+                <div class="card-header">
+                  <img src="../img/job/architech.jpg" class="img-fluid">
+                </div>
+                <div class="card-body text-light">
+                  <h5>ឪកាសការងារ</h5>
+                  <p class="my-2">ផ្នែកខាង Interior Design និង​ Architech</p>
+                  <button type="button" class="btn btn-primary w-100 mt-3">See Detail</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-3">
+              <div class="card">
+                <div class="card-header">
+                  <img src="../img/job/admin.jpg" class="img-fluid">
+                </div>
+                <div class="card-body text-light">
+                  <h5>ឪកាសការងារជាមួយពូកយើង</h5>
+                  <p class="my-2">ផ្នែកខាង Administrator</p>
+                  <button type="button" class="btn btn-primary w-100 mt-3">See Detail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="avd-product p-4 mt-3">
+            <div class="row">
+              <div class="col-lg-7 col-md-8 col-sm-12 d-flex flex-column justify-content-center">
+                <div class="avdpro-content">
+                  <div class="h4 text-white py-2">
+                    តើអ្នកកំពុងស្វែងរកក្រុមហ៊ុនសាង់ដែលមានគុណភាព​មែនទេ ?
+                  </div>
+                  <p class="t-content text-light mb-2">
+                    Nisa Decoration ជាក្រុមហ៊ុនដែលមានស្តង់ដារ សេវាកម្ម និងគុណភាព
+                  </p>
+                </div>
+                <button class="btn btn-primary fw-bold rounded-pill mt-3" style="width: 130px;">Start free trial</button>
+              </div>
+              <div class="col-lg-5 col-md-4 col-sm-12 d-lg-block d-md-block d-sm-none">
+                <div class="img-avd ms-auto">
+                  <img src="../img/card-img/person-avd.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h6 fw-bold text-muted mt-4 mb-2">We are hired</div>
+          <ul class="list-job">
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-web-48.png" class="img-fluid">
+                <p class="fw-bold m-0">Senior Constauctor</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-react-native-48.png" class="img-fluid">
+                <p class="fw-bold m-0">Plannig Development</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">04 position</div>
+            </li>
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-adobe-xd-48.png" class="img-fluid">
+                <p class="fw-bold m-0">UX/UI Designer</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">03 position</div>
+            </li>
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-android-os-48.png" class="img-fluid">
+                <p class="fw-bold m-0">Android Developer</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-c-sharp-logo-2-96.png" class="img-fluid">
+                <p class="fw-bold m-0">C# Developer</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">01 position</div>
+            </li>
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-database-30.png" class="img-fluid">
+                <p class="fw-bold m-0">Database Admin</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-technical-support-66.png" class="img-fluid">
+                <p class="fw-bold m-0">IT Support</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-java-96.png" class="img-fluid">
+                <p class="fw-bold m-0">Java Internship</p>
+              </div>    
+              <div class="timeJob">Part time</div>
+              <div class="nPosition">05 position</div>
+            </li>
+            <li>
+              <div class="title d-flex align-items-center">
+                <img src="../img/icon/icons8-php-logo-30.png" class="img-fluid">
+                <p class="fw-bold m-0">PHP Internship</p>
+              </div>    
+              <div class="timeJob">Part time</div>
+              <div class="nPosition">05 position</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+          <div class="avd-product p-4">
+            <!-- none -->
+          </div>
+          <div class="h6 fw-bold text-muted mt-4 mb-2">We are hired</div>
+          <ul class="list-job">
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">អ្នកដេគ័រផ្នែកខាងក្នុង</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">ស្ថាបត្យករ</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">04 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">Senior Architech</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">03 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">Internship Interior Design</p>
+              </div>
+              <div class="timeJob">Part time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">Graphic Designer</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">01 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">Database Admin</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">Architectural Designer</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">02 position</div>
+            </li>
+            <li>
+              <div class="title">
+                <p class="fw-bold m-0">ជាងដេគ័រ</p>
+              </div>
+              <div class="timeJob">Full time</div>
+              <div class="nPosition">07 position</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- -----Tab Tab end------->
+
+
+    <!-- ---------Footer Start-------- -->
+    <footer class="mt-5">
+      <div class="container-fluid d-flex align-items-center bg-curve">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0">
+              <div class="ft-left">
+                <div class="ft-logo text-white fw-bolder">
+                  <img src="../img/card-img/logo.png" class="img-fluid py-2" width="130px">
+                </div>
+                <p class="text-white">Architech and Decor Company.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6 mt-5 mt-lg-0 mt-md-0">
+              <div class="ft-center">
+                <span class="h5 text-white fw-bolder">សេវាកម្ម</span>
+                <div class="ft-list">
+                  <ul class="list-unstyled mt-2 ms-3">
+                    <li>&#8594; Interior Design</li>
+                    <li>&#8594; Architecture</li>
+                    <li>&#8594; Constraction</li>
+                    <li>&#8594; Decor</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <div class="ft-right">
+                <span class="h5 text-white fw-bolder p-2">ទំនាក់ទំនង</span>
+                <div class="isocial mt-3">
+                  <a href="https://www.facebook.com/dara.sovita2019rupp?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/invites/contact/?i=7imd7lhukz8q&utm_content=3x39d1p"><i class="fa-brands fa-instagram mx-3"></i></a>
+                  <a href="https://t.me/sovitadara27"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <div class="text-white mt-3">
+                  សាលា​បណ្ដុះបណ្ដាល​កុំព្យូទ័រ
+                  #86B ផ្លូវលេខ ៣១៣ - 016 666 653.
+                </div>
+              </div>
+            </div>
+            <p class="text-center text-muted mt-5 p-2">Copyright &#169; 2022 nisa co-ltd. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ---------Footer End-------- -->
+    
+    
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
